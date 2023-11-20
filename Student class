@@ -1,0 +1,12 @@
+public class Student {
+
+private int attendance; 
+private int grades;
+
+public Student(int Attendance, int Grades){
+  attendance = Attendance; 
+  grades = Grades; 
+}
+
+
+}
