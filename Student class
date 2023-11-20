@@ -2,10 +2,12 @@ public class Student {
 
 private int attendance; 
 private int grades;
+private int volunteerHours; 
 
-public Student(int Attendance, int Grades){
+public Student(int Attendance, int Grades, int volunteerMinutesTimesSixty){
   attendance = Attendance; 
   grades = Grades; 
+  volunteerHours = volunteerMinutesTimesSixty; 
 }
 
 
