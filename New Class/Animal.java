@@ -15,14 +15,13 @@ public class Animal extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    private int x; 
-    private int y; 
     public void act()
     {
-        // Add your action code here 
-        getWorld().addObject(new Animal(), 0, 0);
+        // Add your action code here
         move(-2); 
     }
     
-    public GreenfootImage (0, 0); 
+    Actor elephant; 
+                
+
 }
